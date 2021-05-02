@@ -1,13 +1,20 @@
-
-import { StrictMode } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
+import Weather from "./Weather";
+import WeatherSearch from "./WeatherSearch";
+import Attribution from "./Attribution"
 
-import App from "./App";
+import "./App.css";
+
+function App() {
+  return (
+    <div className="App">
+      <Weather />
+      <WeatherSearch />
+      <Attribution />
+    </div>
+  );
+}
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-  rootElement
-);
+ReactDOM.render(<App />, rootElement);
