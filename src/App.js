@@ -1,18 +1,14 @@
+import React from "react";
+
 import "./App.css";
-import Search from "./Search";
-import "./Weather";
-import "./Weather.css";
-import Attribution from "./Attribution";
 
 export default function App() {
   return (
-    <div>
     <div className="App">
-      <h1> Weather app</h1>
-      <Search />
-      <Weather />
-    </div>
-    <Attribution />
-    </div>
+      <h1>MWeather App</h1>
+      <footer>
+        This project was code by <a href="https://github.com/momow1127" target="_blank">Carmen Wong</a> and is <a href ="https://github.com/momow1127/weather-react" target="_blank"> open-sourced on Github</a>
+      </footer>
+     </div>
   );
 }

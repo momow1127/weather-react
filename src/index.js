@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Weather from "./Weather";
+import Weather from "./Weather"; 
 import WeatherSearch from "./WeatherSearch";
 import Attribution from "./Attribution"
 
