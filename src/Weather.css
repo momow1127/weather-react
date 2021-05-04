@@ -1,83 +1,83 @@
 .Weather {
-    padding: 20px;
-    border: 1px solid #dadde1;
-    border-radius: 10px;
-    background:#3f83ff;
-    
-  }
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  background:#3f83ff;
   
-  .Weather .overview {
-    margin-bottom: 20px;
-  
-  }
-  
-  
-  .Weather .weather-temperature{
-    float:right;
-  }
-  
-  
-  
-  .Weather .weather-temperature img {
-    margin-right: 3px;
-    height: 72px;
-    width: 72px;
-   
-  }
-  
-  
-  .Weather .weather-temperature strong {
+}
+
+.Weather .overview {
+  margin-bottom: 20px;
+
+}
+
+
+.Weather .weather-temperature{
+  float:right;
+}
+
+
+
+.Weather .weather-temperature img {
+  margin-right: 3px;
+  height: 72px;
+  width: 72px;
+ 
+}
+
+
+.Weather .weather-temperature strong {
+  color: white;
+  font-size: 55px;
+  line-height: 1;
+  font-weight: 400;
+ 
+}
+
+.Weather .weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -30px;
     color: white;
-    font-size: 55px;
-    line-height: 1;
-    font-weight: 400;
-   
-  }
-  
-  .Weather .weather-temperature .units {
-    position: relative;
-    font-size: 16px;
-    top: -30px;
-      color: white;
-  }
-  
-  .Weather .weather-temperature .active {
+}
+
+.Weather .weather-temperature .active {
+  color: white;
+  cursor: default;
+}
+
+.Weather .weather-temperature .active:hover {
+  text-decoration: none;
     color: white;
-    cursor: default;
-  }
-  
-  .Weather .weather-temperature .active:hover {
-    text-decoration: none;
-      color: white;
-  }
-  
-  .Weather .weather-forecast {
-    margin-top: 30px;
-  }
-  
-  .Weather .weather-forecast h6 {
-    color: white;
-    font-size: 12px;
-    font-weight: 400;
-    text-align: center;
-    height: 15px;
-    line-height: 10px;
-    padding-top: 7px;
-  }
-  
-  .Weather .Weather .weather-forecast img {
-    display: block;
-    margin: 0 auto;
-    height: 48px;
-    width: 48px;
-  }
-  
-  .Weather .weather-forecast-temperature {
-    text-align: center;
-    color:white;
-    font-size: 14px;
-    font-weight: 400;
-    height: auto;
-    line-height: 15px;
-    white-space: nowrap;
-  }
+}
+
+.Weather .weather-forecast {
+  margin-top: 30px;
+}
+
+.Weather .weather-forecast h6 {
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  height: 15px;
+  line-height: 10px;
+  padding-top: 7px;
+}
+
+.Weather .Weather .weather-forecast img {
+  display: block;
+  margin: 0 auto;
+  height: 48px;
+  width: 48px;
+}
+
+.Weather .weather-forecast-temperature {
+  text-align: center;
+  color:white;
+  font-size: 14px;
+  font-weight: 400;
+  height: auto;
+  line-height: 15px;
+  white-space: nowrap;
+}
