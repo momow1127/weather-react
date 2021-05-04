@@ -1,5 +1,7 @@
 import React from "react";
 import "./Weather.css";
+
+
 export default function Weather() {
   let weatherData = {
     city: "New York",
@@ -19,7 +21,7 @@ export default function Weather() {
               type="search"
               placeholder="Search a City"
               className="form-control"
-              autoComplete="off"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">

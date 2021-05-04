@@ -2,83 +2,10 @@
 
 .App {
   max-width: 600px;
-  margin: 40px auto;
+  margin: 30px auto;
 }
 
-body {
-  font-family: "Quicksand", Arial, sans-serif;
-  color: white;
-}
-
-h1 {
-  color: white;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 40px;
-  margin-bottom: 0;
-  text-align: center;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  color: white;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 30px;
-  text-align: center;
-}
-
-li:first-letter {
-  text-transform: capitalize;
-}
-
-a {
-  color: rgb(0, 0, 0);
-  color: white;
-}
-
-a:hover {
-  color: white;
-}
-
-#navcontainer ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: center;
-  margin-top: 10px;
-}
-
-#navcontainer ul li {
-  display: inline;
-  padding: 0.2em 1em;
-  margin: 10;
-}
-
-#description {
-  font-weight: 600;
-}
-
-.btn-primary {
-  background: #3f83ff;
-  border: 1px solid #ffffff;
-  color: #ffffff;
-}
-
-.btn-primary:hover {
-  background: #ffffff;
-  color: #3f83ff;
-  border: 1px solid #ffffff;
-}
-
-#fahrenheit-link {
-  color: #ffffff;
-  text-decoration: underline;
+.App footer {
+  font-size: 11px;
+  margin: 10px auto;
 }
