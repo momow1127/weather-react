@@ -1,6 +1,5 @@
 import React from "react";
 import Weather from "./Weather";
-
 import "./App.css";
 
 export default function App() {
@@ -8,10 +7,27 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="New York" />
-      <footer>
-        This project was code by <a href="https://github.com/momow1127">Carmen Wong</a> {" "}and is{" "} <a href ="https://github.com/momow1127/weather-react"> open-sourced on Github</a>
-      </footer>
-     </div>
+
+        <footer>
+          This project was coded by{" "}
+          <a
+            href="https://github.com/momow1127"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Carmen Wong
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/momow1127/weather-react"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+        </footer>
+      </div>
     </div>
   );
 }
+

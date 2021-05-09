@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap");
 
+
 .App {
   max-width: 600px;
   margin: 30px auto;
+  font-family: "Quicksand", Arial, sans-serif;
 }
 
 .App footer {
   font-size: 11px;
   margin: 10px auto;
+  font-family: "Quicksand", Arial, sans-serif;
 }
