@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap");
+
+
 .Weather {
   font-family: "Quicksand", Arial, sans-serif;
   padding: 20px;
@@ -48,7 +51,8 @@
 .Weather .units {
   position: relative;
   font-size: 16px;
-  top: -30px;
+  top: -34px;
+  font-weight:400;
   color: rgb(255,255,255);
   line-height: 1;
 }
