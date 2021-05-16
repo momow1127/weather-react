@@ -60,12 +60,14 @@ export default function Weather(props) {
             </div>
           </div>
 
-          <div className="col-3">
+         
         </form>
+        <div className="col-3">
         <WeatherInfo data={weatherData} />
+        </div>
         <WeatherForecast coordinates={weatherData.coordinates} />
       </div>
-      </div>
+     
     );
   } else {
     search();
