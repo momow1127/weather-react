@@ -6,6 +6,7 @@
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 10px;
+  text-align: center;
   background: rgb(63,131,255);
   }
 
@@ -50,9 +51,7 @@
 
 }
 
-.Weather cavas{
-  margin: 10px auto;
-}
+
 
 .Weather .units {
   position: relative;
