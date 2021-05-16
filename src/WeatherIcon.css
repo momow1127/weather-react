@@ -1,3 +1,7 @@
 .WeatherIcon{
     color: white;
+    display: block;
+  margin: 0 auto;
+  height: 48px;
+  width: 48px;
 }
