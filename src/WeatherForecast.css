@@ -5,10 +5,10 @@
     text-align: center;
     color: rgb(255,255,255);
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 00;
     text-align: center;
     height: 15px;
-    line-height: 10px;
+    line-height: 30px;
     padding-top: 7px;
     font-family: "Quicksand", Arial, sans-serif;
     
@@ -17,4 +17,8 @@
   .WeatherForecast-temperature-min {
     opacity: 0.6;
     margin-left: 5px;
+    font-family: "Quicksand", Arial, sans-serif;
+    font-size: 12px;
+    line-height: 30px;
+    
   }
